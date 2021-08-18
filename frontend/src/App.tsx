@@ -18,9 +18,13 @@ Exercise Theme: Music Search Engine
  */
 
 function App() {
+
+    const loadResults = ( data : musicApiResponse) => {
+
+    }
   return (
     <div className="App">
-      <SearchBar callback={a => console.log( a )}/>
+      <SearchBar callback={  }/>
     </div>
   );
 }
